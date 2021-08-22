@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalabe=yes">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Fruits Game </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="score" id="score">
+            Score: <span id="value"> 0</span>
+        </div>
+        <div class="correct" id="correct">
+            Correct
+        </div>
+        <div class="wrong" id="wrong">
+            Try Again
+        </div>
+        <div class="fruit" id="fruit">
+            <img id="frt1" class="fruits">
+        </div>
+        <div class="instruction" id="instruction">
+            Hover Mouse Icon over the Fruits to Slice Them
+        </div>
+
+        <div class="start" id="start">
+            Start Game
+        </div>
+        <div class="life" id="life">
+            <span id="count">  </span>
+        </div>
+        <div class="gameover" id="gameover">
+
+        </div>
+    </div>
+    <audio id="aud">
+    <source src="audios/sound1.mp3"  />
+  </audio>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="func.js" charset="utf-8"></script>
+</body>
+
+</html>
